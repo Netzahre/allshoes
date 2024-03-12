@@ -41,11 +41,14 @@ p.importante {
     font-style: italic;
     margin: 20px 0;
 }
+div.redes {
+    float: left;
+}
 
 img.social {
     height: 30px;
     margin: 15px 10px 0 0;
-    float: left;
+    float: right;
 }
 
 img.social:hover {
