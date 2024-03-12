@@ -36,7 +36,10 @@ img.logo {
     position: absolute;
     width: 5%;
 }
-
+.telegram:hover, .twitter:hover, .instagram:hover, .whatsapp:hover, .facebook:hover {
+    scale: 110%;
+    transition: transform 0.3s ease;
+}
 .telegram {
     right: 63%;
     top: 58%;

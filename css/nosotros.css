@@ -48,3 +48,8 @@ img.social {
     float: left;
 }
 
+img.social:hover {
+    scale: 110%;
+    transition: transform 0.3s ease;
+}
+
