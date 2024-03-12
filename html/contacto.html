@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Esther Almira Siverio -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../img/Logos/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Cabecera del sitio web -->
+    <header>
+        <div class="header-container">
+            <img src="../img/Logos/Logo.png" alt="logo de la pagina" class="cabecera">
+            <h2 class="cabecera">ALL<span class="color">SHOES</span></h2>
+            <ul class="menu">
+                <li class="menu-item"><a href="../index.html">INICIO</a></li>
+                <li class="menu-item"><a href="../html/nosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="menu-item"><a href="../html/cursos.html">CURSOS</a></li>
+                <li class="menu-item"><a href="../html/tienda.html">TIENDA</a></li>
+                <li class="menu-item"><a href="../html/contacto.html">CONTACTO</a></li>
+        </div>
+    </header>
+    <!-- Cuerpo del sitio web -->
+    <main>
+        <h2 class="titulo">CONTACTO</h2>
+        <div class="informacion">
+            <h2 class="intro">¿TIENES ALGUNA DUDA?</h2>
+            <p class="descripcion">En ALLSHOES nos preocupamos por resolver todas las dudas de nuestros clientes</p>
+            <p>En ALLSHOES, la satisfacción del cliente es nuestra prioridad número uno. Nuestro equipo de atención
+                al cliente está disponible para ayudarte con cualquier consulta o preocupación que puedas tener. Ya
+                sea que necesites ayuda para encontrar el tamaño adecuado, asistencia con tu pedido en línea o
+                simplemente desees compartir tus comentarios, estamos aquí para ti.
+            </p>
+            <p class="datos">E-mail:</p>
+            <p class="negrita">info@allshoes.es</p>
+            <p class="datos">Redes sociales:</p>
+            <div class="sociales">
+                <img src="../img/Logos/Logo.png" alt="logo" class="logo">
+                <a href="https://web.telegram.org/"><img src="../img/RedesSociales/telegram-icon.png" alt="telegram"
+                        class="telegram"></a>
+                <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../img/RedesSociales/whatsapp-logo.png"
+                        alt="whatsapp" class="whatsapp"></a>
+                <a href="https://www.twitter.com"><img src="../img/RedesSociales/twitter-icon.png" alt="twitter"
+                        class="twitter"></a>
+                <a href="https://www.instagram.com"><img src="../img/RedesSociales/instagram-logo.png" alt="instagram"
+                        class="instagram"></a>
+                <a href="https://www.facebook.com"><img src="../img/RedesSociales/facebook-icon.png" alt="facebook"
+                        class="facebook"></a>
+            </div>
+        </div>
+        <div class="formulario">
+            <form action="#" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" class="form" required
+                    pattern="[A-Za-z]*" title="Solo se admiten letras">
+                <input type="email" name="email" id="email" placeholder="CORREO (CORREO@EMAIL.COM)" class="form"
+                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Introduzca un email valido">
+                <input type="tel" name="telefono" id="telefono" placeholder="TELEFONO (+34 XXX XXX XXX)" class="form"
+                    required pattern="\+34\s?[0-9]{3}\s?[0-9]{3}\s?[0-9]{3}" title="Solo se admiten numeros">
+                <select name="tema" id="tema" class="form">
+                    <option value="tema">TEMA</option>
+                    <option value="comentario">Comentario</option>
+                    <option value="sugerencia">Sugerencia</option>
+                </select>
+                <textarea name="mensaje" id="mensaje" cols="40" rows="5" class="form"></textarea>
+                <div class="checkbox">
+                    <input type="checkbox" name="TOS" id="TOS" required>
+                    <label for="TOS">Aceptar <a href="#">condiciones</a></label>
+                </div>
+                <div class="form">
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

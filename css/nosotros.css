@@ -1,0 +1,50 @@
+/* Esther Almira Siverio */
+img.tienda {
+ height: 600px;
+ width: 43%;
+ margin: 25px 50px;
+ float: left;
+ object-fit: cover;
+}
+
+span.color {
+    color: orange;
+}
+
+div.contenido {
+    padding: 50px;
+}
+
+p.empresa {
+    font-weight: bolder;
+    position: relative;
+    left: 50px;
+    font-size: 1.8em;
+}
+
+main {
+    display: flow-root;
+}
+
+img.logo {
+    width: 45px;
+    position: absolute;
+}
+
+p.negrita {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+p.importante {
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+img.social {
+    height: 30px;
+    margin: 15px 10px 0 0;
+    float: left;
+}
+

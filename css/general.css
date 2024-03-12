@@ -1,0 +1,60 @@
+/* Esther Almira Siverio */
+* {
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Se aplica a 4 de las 5 paginas con lo cual me parecio razonable introducirlo en el css comun y simplemente no poner la clase si deseo no aplicarlo */
+.titulo {
+    text-align: center;
+    font-style: italic;
+    padding: 15px 0;
+    border-bottom: 1px black solid;
+    font-size: 2.5em;
+}
+
+.header-container {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: flow-root;
+    padding: 0 5%;
+}
+header {
+    border-bottom: 1px black solid;
+    padding: 0 0 15px 0;
+}
+
+ul.menu {
+    float: right;
+}
+/* Hay que flotar tanto los li como el a para su correcto funcionamiento */
+header .menu > .menu-item, header .menu > .menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    float: left;
+    margin-top: 0.35em;
+    list-style: none;
+}
+
+header .menu  a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 33px;
+}
+
+header .cabecera {
+    float: left;
+    margin-top: 0.7em;
+}
+
+header img.cabecera {
+    height: 70px;
+    margin: 0 10px;
+}
+
+header span.color {
+    color: orange;
+}

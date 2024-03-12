@@ -1,0 +1,65 @@
+/* Esther Almira Siverio */
+main {
+    display: flow-root;
+}
+
+div.texto {
+    margin: 15px 60px;
+    float: left;
+    width: 50%;
+}
+
+p.horas,
+p.nombrecurso {
+    font-weight: bold;
+}
+
+p.nombrecurso {
+    font-size: 2.5em;
+}
+
+p.descripcion {
+    margin: 10px 0 0;
+}
+
+div.falsificaciones {
+    margin: 30px 50px;
+    float: left;
+}
+
+div.disenio {
+    margin: 30px 50px;
+    float: right;
+}
+
+img.imagencurso1,
+img.imagencurso2 {
+    width: 40%;
+    object-fit: cover;
+    height: 300px;
+}
+
+img.imagencurso2 {
+    float: left;
+}
+
+div.texto>button {
+    float: right;
+    background-color: rgb(195, 191, 186);
+    border-style: hidden;
+    border-radius: 30px;
+    width: 20%;
+    height: 50px;
+}
+
+div.texto>button> a{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+div.texto>button:hover {
+    background-color: orange;
+}
